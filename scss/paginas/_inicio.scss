@@ -1,0 +1,64 @@
+// Pagina Principal
+.parrafo-1{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(230, 249, 230); */
+    font-size: 24px;
+    padding: 66px;
+}
+.que-te-ofrezco{
+    display: flex ;
+    justify-content: center;
+    /* background-color:rgb(230, 249, 230); */
+    font-size: 35px;
+    padding: 25px;
+    text-decoration: underline;
+}
+.rol-dietista{
+    display: flex ;
+    justify-content: center;
+    /* background-color:rgb(230, 249, 230); */
+    font-size: 23px;
+    padding: 50px
+    }
+.tengoplanes{
+    font-size: 25px;
+}
+.titulo3{
+    display: flex ;
+    justify-content: center;
+    /* background-color:rgb(230, 249, 230); */
+}
+.parrafo-2{
+    display: flex ;
+    justify-content: center;
+}
+.img-index1 {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    /* background-color: aquamarine; */
+    
+}
+.img-index2{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+/*     background-color:rgb(230, 249, 230); */
+    margin: 0;
+}
+.imagenes-principal{
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-center;
+    /* background-color:rgb(230, 249, 230); */
+    gap: 50px;
+}
+.imagenes-principal:hover{
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-center;
+    /* background-color:rgb(230, 249, 230); */
+    gap: 700px;
+}

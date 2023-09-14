@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+@import "./bootstrap/functions.scss";
+@import "variabls";
+@import "./bootstrap/bootstrap.scss";
+
+@import "./paginas/header";
+@import "./paginas/foooter.scss";
+@import "./paginas/recetas.scss";
+@import "./paginas/inicio.scss";
+@import "./paginas/contacto";
+@import "./paginas/tratamientos";
+@import "./paginas/formulario";
+@import "./paginas/plan";
+@import "./paginas/home";

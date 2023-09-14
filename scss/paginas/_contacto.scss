@@ -1,0 +1,42 @@
+.buttom_contact {
+    padding: 10px 20px 10px 20px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    align-self: center;
+}
+.input-label_form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contactame{
+    display: flex ;
+    justify-content: center;
+    background-color:rgb(230, 237, 190);
+    font-size: 40px;
+}
+.formulario{
+    display: flex ;
+    justify-content: center;
+    background-color:rgb(230, 237, 190);
+}
+.div .botoncomienza{
+    display: block;
+
+}
+.contactoform{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.botones{
+    display: flex ;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    background-color:rgb(230, 237, 190);
+}

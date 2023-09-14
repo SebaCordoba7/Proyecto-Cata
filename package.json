@@ -1,0 +1,24 @@
+{
+  "name": "proyectocata",
+  "version": "1.0.0",
+  "description": "Proyecto con Sass - Nutricion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaCordoba7/Proyecto-Cata.git"
+  },
+  "author": "Sebastian Cordoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebaCordoba7/Proyecto-Cata/issues"
+  },
+  "homepage": "https://github.com/SebaCordoba7/Proyecto-Cata#readme",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
