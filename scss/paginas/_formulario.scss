@@ -1,0 +1,112 @@
+.buttom_contact {
+  padding: 10px 20px 10px 20px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.input-label_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactame {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+  font-size: 40px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+}
+
+.div .botoncomienza {
+  display: block;
+}
+
+.contactoform {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(230, 237, 190);
+}
+
+.main__form {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  background-color: rgb(188, 117, 255);
+}
+
+.main__paragraph {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 247, 168);
+  font-size: 40px;
+}
+
+.main__link {
+  padding: 0;
+  text-align: -webkit-center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.botoncomienza3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.formulario__cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formulario-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-form {
+  width: 500px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.input-form_message {
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+/* Fin formulario */

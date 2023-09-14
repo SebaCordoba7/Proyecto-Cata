@@ -1,0 +1,390 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+
+
+
+
+
+.enlaces {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 50px;
+}
+
+/* width: 900px; */
+.nav {
+  /* margin: 0 auto;
+  margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -webkit-body;
+}
+
+.img-index1 {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  background-color: aquamarine;
+}
+
+.img-index2 {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(230, 249, 230);
+  margin: 0;
+}
+
+.items {
+  margin-top: 16px;
+}
+
+.items-pages {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.items-pages:hover {
+  background-color: rgb(126, 233, 147);
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+.enlaces :visited {
+  color: black;
+}
+
+.parrafo-1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 24px;
+  padding: 20px;
+}
+
+.que-te-ofrezco {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 35px;
+  padding: 25px;
+  text-decoration: underline;
+}
+
+.rol-dietista {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 23px;
+  padding: 50px;
+}
+
+.tengoplanes {
+  font-size: 25px;
+}
+
+.titulo3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+}
+
+.parrafo-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  align-content: end;
+}
+
+.imagenes-principal {
+  display: flex;
+  justify-content: center;
+  text-align: -webkit-center;
+  background-color: rgb(230, 249, 230);
+  gap: 50px;
+}
+
+.plan-titulo {
+  text-align: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 40px;
+}
+
+.dias {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 20px;
+}
+
+.planes-parrafo {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  background-color: rgb(230, 237, 190);
+}
+
+.planes-parrafo1 {
+  display: flex;
+  justify-content: center;
+  stroke-linecap: butt;
+}
+
+.botoncomienza {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 240, 240, 0.979);
+}
+
+.Paso-a-paso-receta-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: rgb(230, 237, 190);
+}
+
+.receta-uno {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  background-color: rgb(230, 237, 190);
+}
+
+.espaguetis {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(230, 237, 190);
+}
+
+.Ingredientes-receta-uno {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+  font-size: 20px;
+}
+
+.img-espagueti {
+  margin: auto;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ensaladanaranja {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  background-color: rgb(230, 237, 190);
+  margin: auto;
+}
+
+.recetados {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 20px;
+}
+
+.tiempos {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 20px;
+}
+
+.ensaldafoto {
+  margin: auto;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(230, 249, 230);
+}
+
+.tituloingrediente {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: rgb(230, 237, 190);
+}
+
+.ingredientes {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 20px;
+}
+
+.Elaboración2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 249, 230);
+  font-size: 20px;
+}
+
+.elaboraciontitulo {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: rgb(230, 237, 190);
+}
+
+.tratamiento {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+  font-size: 40px;
+}
+
+.listadedeTratamientos {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  background-color: rgb(230, 237, 190);
+}
+
+.parrafotratamiento {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(180, 244, 171);
+  font-size: 20px;
+  padding: 45px;
+}
+
+.buttom_contact {
+  padding: 10px 20px 10px 20px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.input-label_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactame {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+  font-size: 40px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 237, 190);
+}
+
+.div .botoncomienza {
+  display: block;
+}
+
+.contactoform {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(230, 237, 190);
+}
+
+.main__form {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  background-color: rgb(188, 117, 255);
+}
+
+.main__paragraph {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 247, 168);
+  font-size: 40px;
+}
+
+.main__link {
+  padding: 0;
+  text-align: -webkit-center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.botoncomienza3 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.formulario__cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formulario-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-form {
+  width: 500px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.input-form_message {
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+/* Fin formulario */
+
+
+/* Footer */
+
+
+/* Fin Footer */
+/* Responsive */
+@media screen and (max-width: 480px) {
+  central {
+    flex-direction: column;
+    font-size: 1px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

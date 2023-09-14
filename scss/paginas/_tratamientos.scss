@@ -1,0 +1,66 @@
+
+.tratamiento{
+    display: flex ;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 45px;
+    background-color:rgb(230, 237, 190);
+    font-size: 40px;
+    box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+    
+}
+.listadedeTratamientos{
+    display: flex ;
+    margin: 15px;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+.parrafotratamiento{
+    display: flex ;
+    justify-content: center;
+    background-color:#bac34e;
+    margin: 90px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 45px;
+    box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+       }
+
+.cardtratamientos{
+        width: 80%;
+        height: 378px;
+        border-radius: 50px;
+        margin: auto;
+        background: #e0e0e0;
+        box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+       }
+.cardtratamientos:hover{
+    width: 80%;
+        height: 420px;
+        border-radius: 50px;
+        margin: auto;
+        background: #e0e0e0;
+        box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+                    }
+.tratamiento:hover{
+    display: flex ;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 45px;
+    background-color:rgb(232, 237, 180);
+    font-size: 45px;
+    box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+}
+.listadedeTratamientos:hover{
+    display: flex ;
+    margin: 15px;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+}
