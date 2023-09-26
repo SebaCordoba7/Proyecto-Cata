@@ -14102,7 +14102,6 @@ textarea.form-control-lg {
 }
 
 body {
-  /* width: 80%; */
   height: auto;
   background: hsl(154, 96%, 57%);
   background: linear-gradient(90desg, hsl(154, 96%, 57%) 34%, hsl(0, 0%, 100%) 99%);
@@ -14118,8 +14117,6 @@ body {
   width: 100%;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  /* background: hsla(154, 96%, 57%, 1);
-  background: linear-gradient(90deg, hsla(154, 96%, 57%, 1) 34%, hsla(0, 0%, 100%, 1) 99%); */
 }
 
 .header__left {
@@ -14139,7 +14136,6 @@ body {
 }
 .titulo2 {
   display: flex;
-  /* background-color: rgb(230, 249, 230); */
   justify-content: center;
   font-size: 35px;
   padding: 50px;
@@ -14154,8 +14150,6 @@ body {
 }
 
 .nav {
-  /* margin: 0 auto;
-  margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14710,7 +14704,8 @@ iframe.mapa {
   display: flex;
   margin: auto;
   width: 1497px;
-  height: 485px;
+  height: 503px;
+  padding: 45px;
   border-radius: 34px;
   background: lightgrey;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
@@ -14729,6 +14724,7 @@ iframe.mapa {
 .Ingredientes-receta1 {
   margin: auto;
   width: 546px;
+  padding: 45px;
   height: 485px;
   border-radius: 34px;
   background: lightgrey;
@@ -14758,7 +14754,6 @@ iframe.mapa {
 .parrafo-1 {
   display: flex;
   justify-content: center;
-  /* background-color: rgb(230, 249, 230); */
   font-size: 24px;
   padding: 66px;
 }
@@ -14766,7 +14761,6 @@ iframe.mapa {
 .que-te-ofrezco {
   display: flex;
   justify-content: center;
-  /* background-color:rgb(230, 249, 230); */
   font-size: 35px;
   padding: 25px;
   text-decoration: underline;
@@ -14775,7 +14769,6 @@ iframe.mapa {
 .rol-dietista {
   display: flex;
   justify-content: center;
-  /* background-color:rgb(230, 249, 230); */
   font-size: 23px;
   padding: 50px;
 }
@@ -14787,7 +14780,6 @@ iframe.mapa {
 .titulo3 {
   display: flex;
   justify-content: center;
-  /* background-color:rgb(230, 249, 230); */
 }
 
 .parrafo-2 {
@@ -14800,14 +14792,12 @@ iframe.mapa {
   display: flex;
   justify-content: flex-end;
   margin-top: 1rem;
-  /* background-color: aquamarine; */
 }
 
 .img-index2 {
   width: 300px;
   display: flex;
   justify-content: flex-end;
-  /*     background-color:rgb(230, 249, 230); */
   margin: 0;
 }
 
@@ -14815,7 +14805,6 @@ iframe.mapa {
   display: flex;
   justify-content: center;
   text-align: -webkit-center;
-  /* background-color:rgb(230, 249, 230); */
   gap: 50px;
 }
 
@@ -14823,7 +14812,6 @@ iframe.mapa {
   display: flex;
   justify-content: center;
   text-align: -webkit-center;
-  /* background-color:rgb(230, 249, 230); */
   gap: 700px;
 }
 
@@ -15059,15 +15047,6 @@ iframe.mapa {
   padding: 0;
 }
 
-/* body { 
-    display:grid;
-    background-color: red;
-    place-items: center;
-    font-family: "League Spartan", system-ui, sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.2;
-    background-color: red;
-} */
 ul {
   list-style: none;
 }

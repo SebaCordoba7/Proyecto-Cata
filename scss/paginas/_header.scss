@@ -4,7 +4,6 @@
 }
 
 body {
-    /* width: 80%; */
     height: auto;
     background: hsl(154, 96%, 57%);
     background: linear-gradient(90desg, hsl(154, 96%, 57%) 34%, hsl(0, 0%, 100%) 99%);
@@ -19,8 +18,6 @@ body {
     width: 100%;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    /* background: hsla(154, 96%, 57%, 1);
-    background: linear-gradient(90deg, hsla(154, 96%, 57%, 1) 34%, hsla(0, 0%, 100%, 1) 99%); */
   }
 .header {
     &__left {
@@ -39,7 +36,6 @@ body {
   font-size: 32px;
   &2 {
     display: flex;
-    /* background-color: rgb(230, 249, 230); */
     justify-content: center;
     font-size: 35px;
     padding: 50px;
@@ -55,8 +51,6 @@ body {
 
 }
 .nav{
-/* margin: 0 auto;
-margin: 0 auto; */
 display: flex;
 align-items: center;
 justify-content: center;
