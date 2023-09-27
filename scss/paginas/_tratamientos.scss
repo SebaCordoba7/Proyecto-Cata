@@ -18,17 +18,16 @@
     
 }
 .parrafotratamiento{
-    display: flex ;
-    justify-content: center;
-    background-color:#bac34e;
+    display: flex;
+    background-color: #bac34e;
     margin: 90px;
     border-radius: 15px;
     font-size: 20px;
     padding: 45px;
-    box-shadow: 20px 20px 60px #bebebe,
-                      -20px -20px 60px #ffffff;
-       }
-
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .cardtratamientos{
         width: 80%;
         height: 378px;
@@ -63,4 +62,7 @@
     justify-content: center;
     font-size: 28px;
     font-weight: 600;
+}
+.negritaparrafo{
+    font-weight: 700;
 }

@@ -54,6 +54,9 @@
 .recetados{
     display: flex ;
     justify-content: center;
+    padding: auto;
+    width: 1350px;
+    height: auto;
     background-color:rgb(230, 249, 230);
     border-radius: 12px;
     font-size: 20px;
@@ -94,6 +97,7 @@
 .elaboracion2{
     display: flex;
     background-color: rgb(230, 249, 230);
+    padding: 50px;
     font-size: 25px;
     border-radius: 34px;
     background: lightgrey;
@@ -152,8 +156,9 @@
 }
 .cajaIngredientes{
     margin: auto;
-    width: 834px;
-    height: 392px;
+    width: 900px;
+    height: 410px;
+    padding: 50px;
     border-radius: 30px;
     background: rgb(255, 253, 253);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;

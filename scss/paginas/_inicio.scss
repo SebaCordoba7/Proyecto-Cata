@@ -4,6 +4,8 @@
     justify-content: center;
     font-size: 24px;
     padding: 66px;
+    background: rgb(255,255,255);
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(186,195,78,0.7428221288515406) 26%);
 }
 .que-te-ofrezco{
     display: flex ;
@@ -11,17 +13,34 @@
     font-size: 35px;
     padding: 25px;
     text-decoration: underline;
+    background: rgb(255,255,255);
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(186,195,78,0.7428221288515406) 26%);
 }
 .rol-dietista{
     display: flex ;
+     font-weight: 700;
     justify-content: center;
-
     font-size: 23px;
-    padding: 50px
+    padding: 50px;
+    background: rgb(255,255,255);
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(186,195,78,0.7428221288515406) 26%);
     }
 .tengoplanes{
     font-size: 25px;
 }
+.cambiarfondo{
+    background: rgb(255,255,255);
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(186,195,78,0.7428221288515406) 26%);
+}
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 50px;
+    text-decoration: underline;
+    background: rgb(255,255,255);
+    background: linear-gradient(108deg, rgba(255,255,255,1) 0%, rgba(186,195,78,0.7428221288515406) 26%);
+  }
 .titulo3{
     display: flex ;
     justify-content: center;
@@ -37,7 +56,7 @@
     margin-top: 1rem;  
 }
 .img-index2{
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     margin: 0;
@@ -45,12 +64,27 @@
 .imagenes-principal{
     display: flex;
     justify-content: center;
+    height: auto;
     text-align: -webkit-center;
-    gap: 50px;
+    gap: 5px;
 }
 .imagenes-principal:hover{
     display: flex;
     justify-content: center;
     text-align: -webkit-center;
-    gap: 700px;
+    gap: 70px;
 }
+.que-te-ofrezco:hover{
+    display: flex ;
+    justify-content: center;
+    font-size: 45px;
+    padding: 25px;
+    text-decoration: underline;
+}
+.titulo2:hover {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 500
+  }
