@@ -14180,6 +14180,12 @@ body {
   margin: 0%;
 }
 
+.img-header:hover {
+  margin: 0%;
+  background: rgb(61, 61, 61);
+  background: radial-gradient(circle, rgb(61, 61, 61) 0%, rgb(255, 255, 255) 92%);
+}
+
 /*----------------------------------------*/
 /*  02. Header
 /*----------------------------------------*/
@@ -14854,6 +14860,7 @@ iframe.mapa {
 .titulo2:hover {
   display: flex;
   justify-content: center;
+  color: white;
   font-size: 40px;
   padding: 50px;
   font-weight: 500;
