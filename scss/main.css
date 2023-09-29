@@ -14103,8 +14103,6 @@ textarea.form-control-lg {
 
 body {
   height: auto;
-  background: hsl(154, 96%, 57%);
-  background: linear-gradient(90desg, hsl(154, 96%, 57%) 34%, hsl(0, 0%, 100%) 99%);
 }
 
 .contenedor-1 {
@@ -14183,7 +14181,7 @@ body {
 .img-header:hover {
   margin: 0%;
   background: rgb(61, 61, 61);
-  background: radial-gradient(circle, rgb(61, 61, 61) 0%, rgb(255, 255, 255) 92%);
+  background: radial-gradient(circle, rgb(61, 61, 61) 0%, rgb(255, 255, 255) 84%);
 }
 
 /*----------------------------------------*/
@@ -14666,6 +14664,7 @@ iframe.mapa {
   display: flex;
   justify-content: flex-end;
   background-color: rgb(230, 249, 230);
+  border-radius: 15px;
 }
 
 .tituloingrediente {
@@ -14756,7 +14755,7 @@ iframe.mapa {
   margin: auto;
   width: 900px;
   height: 410px;
-  padding: 50px;
+  padding: 19px;
   border-radius: 30px;
   background: rgb(255, 253, 253);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
