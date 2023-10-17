@@ -14499,6 +14499,41 @@ body {
   height: 100%;
 }
 
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+  .contenedor-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .titulo {
+    font-size: 26px;
+    text-align: center;
+  }
+  .img-header {
+    margin-left: 5px;
+  }
+  .header__left .img-header {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .ul-main-nav {
+    display: flex;
+    align-items: center;
+  }
+  .main-nav > ul > li:not(:last-child) {
+    padding-right: 16px;
+  }
+}
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+  .contenedor-1 {
+    flex-direction: row;
+  }
+  .main-menu {
+    display: flex; /* Mostrar el menú en pantallas medianas y grandes */
+  }
+}
 .footer__footer {
   display: flex;
   justify-content: center;
@@ -14578,6 +14613,28 @@ iframe.mapa {
   central {
     flex-direction: column;
     font-size: 1px;
+  }
+}
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+  .footer__footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .footer__footer-top .footer__logo,
+  .footer__footer-top .footer__contact,
+  .footer__footer-top .footer__redes {
+    width: 100%;
+  }
+}
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+  .footer__footer-top .footer__logo,
+  .footer__footer-top .footer__contact,
+  .footer__footer-top .footer__redes {
+    width: auto;
   }
 }
 .Paso-a-paso-receta-1 {
@@ -14761,6 +14818,66 @@ iframe.mapa {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
 
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+  .pasoapasoreceta {
+    width: 90%;
+    height: auto;
+  }
+  .Ingredientes-receta1 {
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+  }
+  .img-espagueti,
+  .ensaldafoto {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .elaboracion2 {
+    width: 90%;
+    margin: auto;
+  }
+  .elaboracion2 p {
+    font-size: 20px;
+  }
+  .recetados {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+  }
+  .tiempos,
+  .ensaladanaranja,
+  .receta-uno,
+  .espaguetis,
+  .tituloingrediente,
+  .elaboraciontitulo,
+  .cajaIngredientes,
+  .ingredientes {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .recetas-padding0 {
+    padding-left: 0;
+  }
+  .tiempos,
+  .tituloingrediente {
+    margin-top: 20px;
+  }
+}
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+  .contenedor-1 {
+    flex-direction: row;
+  }
+  .main-menu {
+    display: flex; /* Mostrar el menú en pantallas medianas y grandes */
+  }
+}
 .parrafo-1 {
   display: flex;
   justify-content: center;
@@ -14817,6 +14934,10 @@ iframe.mapa {
 .parrafo-2 {
   display: flex;
   justify-content: center;
+}
+
+.img-index {
+  max-width: 100%;
 }
 
 .img-index1 {
@@ -14982,6 +15103,34 @@ iframe.mapa {
   font-weight: 700;
 }
 
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+  .parrafotratamiento {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 90%;
+  }
+  .cardtratamientos {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  .listadedeTratamientos {
+    margin: 0;
+  }
+}
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+  .contenedor-1 {
+    flex-direction: row;
+  }
+  .main-menu {
+    display: flex; /* Mostrar el menú en pantallas medianas y grandes */
+  }
+}
 .buttom_contact {
   padding: 10px 20px 10px 20px;
   background: dodgerblue;
@@ -15093,6 +15242,20 @@ iframe.mapa {
   border: 1px solid black;
 }
 
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+  .formulario {
+    flex-direction: column;
+  }
+  .input-form_message,
+  .input-form {
+    width: 100%;
+  }
+  .form-mapa {
+    max-width: 100%;
+  }
+}
+/* Media queries para pantallas medianas y grandes */
 /* Fin formulario */
 /* Cajas de Tratamiento */
 *::after,

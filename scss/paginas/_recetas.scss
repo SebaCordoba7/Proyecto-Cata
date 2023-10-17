@@ -164,3 +164,66 @@
     background: rgb(255, 253, 253);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+    .pasoapasoreceta {
+        width: 90%;
+        height: auto;
+    }
+    .Ingredientes-receta1 {
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
+    }
+    .img-espagueti,
+    .ensaldafoto  {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .elaboracion2 {
+        width: 90%;
+        margin: auto;
+        p {
+            font-size: 20px;
+        }
+    }
+    .recetados {
+        width: 90%;
+        margin: auto;
+        padding: 5px;
+    }
+    .tiempos,
+    .ensaladanaranja,
+    .receta-uno,
+    .espaguetis,
+    .tituloingrediente,
+    .elaboraciontitulo,
+    .cajaIngredientes,
+    .ingredientes {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .recetas-padding0 {
+        padding-left: 0;
+    }
+    .tiempos,
+    .tituloingrediente {
+        margin-top: 20px;
+    }
+}
+  
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+    .contenedor-1 {
+        flex-direction: row;
+    }
+
+    .main-menu {
+        display: flex; /* Mostrar el menú en pantallas medianas y grandes */
+    }
+}

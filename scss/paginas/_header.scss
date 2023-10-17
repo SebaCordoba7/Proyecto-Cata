@@ -435,3 +435,50 @@ font-family:-webkit-body;
         height: 100%;
     }
 }
+  
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+    .contenedor-1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .titulo {
+        font-size: 26px;
+        text-align: center;
+    }
+    .img-header {
+        margin-left: 5px;
+    }
+    .header__left .img-header {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .ul-main-nav {
+        display: flex;
+        align-items: center;
+    }
+    .main{
+        &-nav{
+            > ul{
+                > li{
+                    &:not(:last-child){
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+  
+/* Media queries para pantallas medianas y grandes */
+@media (min-width: 577px) {
+    .contenedor-1 {
+        flex-direction: row;
+    }
+
+    .main-menu {
+        display: flex; /* Mostrar el menú en pantallas medianas y grandes */
+    }
+}
+  

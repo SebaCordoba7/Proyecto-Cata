@@ -80,3 +80,28 @@ height: 200px;
       font-size: 1px;
   }
 }
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 576px) {
+    .footer__footer-top {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .footer__footer-top .footer__logo,
+    .footer__footer-top .footer__contact,
+    .footer__footer-top .footer__redes {
+      width: 100%;
+    }
+  }
+  
+  /* Media queries para pantallas medianas y grandes */
+  @media (min-width: 577px) {
+    .footer__footer-top .footer__logo,
+    .footer__footer-top .footer__contact,
+    .footer__footer-top .footer__redes {
+      width: auto;
+    }
+  }
